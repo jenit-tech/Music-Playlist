@@ -1,0 +1,54 @@
+.musiclist-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.track-container {
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+
+.track-image {
+  height: 90px;
+  width: 140px;
+  margin-right: 20px;
+}
+
+.track-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.track-genre {
+  color: #3b82f6;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.duration-container {
+  display: flex;
+  align-items: center;
+}
+
+.duration {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.delete-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+}
